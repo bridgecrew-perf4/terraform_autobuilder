@@ -3,7 +3,7 @@ provider "aws" {
   secret_key = "${var.aws_secret_key}"
   region     = "${var.aws_region}"
 
-  version = "1.54.0"
+  version = "3.15.0"
 }
 
 data "aws_ami" "ubuntu" {
